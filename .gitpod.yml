@@ -1,2 +1,3 @@
 tasks:
-  - init: yarn && npm i firebase-tools -g
+  - init: npm i firebase-tools -g
+  - command: cd functions && npm i
