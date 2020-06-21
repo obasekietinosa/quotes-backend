@@ -1,3 +1,4 @@
+image: gitpod/workspace-mysql
 tasks:
   - init: npm i firebase-tools -g
   - command: cd functions && npm i
